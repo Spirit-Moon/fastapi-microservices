@@ -23,7 +23,7 @@ http://localhost:8080/teams/docs/
 
 The project involves designing, implementing, and deploying a multi-container application using containerization technologies, with a focus on the OpenShift container orchestration platform. The application consists of multiple microservices or components that work seamlessly within the OpenShift environment.
 
-### Prerequisites
+## Prerequisites
 
 Ensure you have the following prerequisites installed:
 - Docker
@@ -37,8 +37,9 @@ Clone the project repository:
 ```bash
 git clone https://github.com/tesnimkh/fastapi-microservices
 cd your-project
+```
 
-
+#### Openshift 
 
 1. **Deploy on OpenShift:**
    - Build and push Docker images for each service:
